@@ -5,6 +5,9 @@ nav{
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    margin-top: 100px;
+    // position: sticky;
+    // top: 200px;
     select{
         padding: 25px 15px;
         background: rgb(237, 164, 21);
@@ -33,6 +36,11 @@ nav{
 //     z-index: 1111;
 // }
 .navbar{
+    position: fixed;
+        top: 0;
+        z-index: 11111111111;
+    // position: fixed;
+    z-index: 1111;
     width: 100%;
     background: rgb(0, 63, 98);
     padding: 22px 40px;

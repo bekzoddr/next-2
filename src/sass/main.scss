@@ -243,6 +243,9 @@ button{
         }
         .stars{
             margin-top: 15px;
+            &:hover{
+                color: gold;
+            }
         }
         .card__body{
             padding: 10px 15px;
